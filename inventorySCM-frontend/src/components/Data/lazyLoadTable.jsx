@@ -580,6 +580,7 @@ export default function LazyLoadDemo() {
         try {
             console.log(event);
             const file = event.files[0];
+            // console.log(file);
             sendBase64DataToBackend(file);
         } catch (error) {
             return error
@@ -593,6 +594,8 @@ export default function LazyLoadDemo() {
         try {
             const formData = new FormData();
             formData.append("file", base64data);
+            console.log(base64data);
+            console.log(formData);
 
             setIsRefresh(!isRefresh);
             console.log('Sending data to backend...');
@@ -895,6 +898,7 @@ export default function LazyLoadDemo() {
             networkTimeout = setTimeout(() => {
                 CustomerService.getDataInventory({ lazyEvent: JSON.stringify(lazyState) }).then((data) => {
                     setTotalRecords(data.totalRecords);
+                    console.log(data);
                     data.totalRecords ? true : showMessage('Warning', 'Data Not Found', 'warn')
                     setTotalProjek(data.totalProjek)
                     setTotalValueInventory(data.totalValueInventory)
