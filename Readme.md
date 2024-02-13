@@ -2,6 +2,8 @@
 
 Untuk Preview bisa dilihat
 [disini](https://stackblitz.com/edit/vitejs-vite-n52dfv?file=index.html).
+User: admin
+Password: admin
 
 ## Getting Started
 
