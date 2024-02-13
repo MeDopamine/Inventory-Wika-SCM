@@ -1059,14 +1059,14 @@ const inventoryContorller = {
                     kodeVendor: data.kodeVendor,
                     namaVendor: data.namaVendor,
                     kodeGr: data.kodeGr,
-                    tanggalGr: data.tanggalGr=='#'?'#': new Date((data.tanggalGr - 25569) * 86400 * 1000).toISOString().split('T')[0],
-                    // tanggalGr: data.tanggalGr,
+                    // tanggalGr: data.tanggalGr=='#'?'#': new Date((data.tanggalGr - 25569) * 86400 * 1000).toISOString().split('T')[0],
+                    tanggalGr: data.tanggalGr,
                     grQuantity: data.grQuantity, // Mengganti koma dengan titik
                     grValue: data.grValue, // Mengganti koma dengan titik
                     outstandingGr: data.outstandingGr, // Mengganti koma dengan titik
                     kodeGi: data.kodeGi,
-                    tanggalGi: data.tanggalGi=='#'?'#': new Date((data.tanggalGi - 25569) * 86400 * 1000).toISOString().split('T')[0],
-                    // tanggalGi: data.tanggalGi,
+                    // tanggalGi: data.tanggalGi=='#'?'#': new Date((data.tanggalGi - 25569) * 86400 * 1000).toISOString().split('T')[0],
+                    tanggalGi: data.tanggalGi,
                     giQuantity: data.giQuantity, // Mengganti koma dengan titik
                     giValue: data.giValue, // Mengganti koma dengan titik
                     inventory: data.inventory, // Mengganti koma dengan titik
