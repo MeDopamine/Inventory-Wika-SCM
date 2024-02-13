@@ -1,7 +1,7 @@
 # Inventory SCM
 
 Untuk Preview bisa dilihat
-[disini](https://stackblitz.com/edit/vitejs-vite-n52dfv?file=index.html&view=editor).
+[disini](https://stackblitz.com/edit/vitejs-vite-n52dfv?file=index.html).
 
 ## Getting Started
 
